@@ -12,7 +12,7 @@ function AppRouter() {
     return (
         <BrowserRouter >
             <Routes>
-                <Route path="/faiz-review/" element={<Layout />}>
+                <Route path="/faiz-live-demo-preview//" element={<Layout />}>
 
                     <Route index element={<Content />} />
 
