@@ -1,0 +1,95 @@
+{
+    "main": {
+        "name": "Faiz",
+        "role": "UI",
+        "photo": "faiz.jpg",
+        "desc": "Passionate about creating inclusive and accessible experiences for everyone",
+        "desc2": "",
+        "social": [
+            {
+                "socialName": "LinkedIn",
+                "socialIcon": "linkedin.svg"
+            }
+        ]
+    },
+    "mySkill": {
+        "skill": [
+            {
+                "skillName": "",
+                "skillLogo": ""
+            }
+        ]
+    },
+    "about": {
+        "prg1": "Hi, I'm a UI designer",
+        "prg2": "Passionate about creating inclusive and accessible experiences for everyone. Beyond design, I am currently on a journey to become a therapist, expanding my skills in understanding people and emotional growth.",
+        "prg3": "In my spare time, you’ll often find me exploring pottery, ceramics, or sculpture.",
+        "prg4": "",
+        "prg5": ""
+    },
+    "myExperience": {
+        "experience": [
+            {
+                "id": 1,
+                "position": "UI Designer",
+                "company": "Nusatek",
+                "date": "Nov 2021 - Present",
+                "do1": "Handling cross-product in Nusatek.id (MOaja, Propertek, NAS Sertifikasi, Garudea, and others)."
+            },
+            {
+                "id": 2,
+                "position": "UI Designer",
+                "company": " Batara Guru Teknologi",
+                "date": "Sep 2020 - Mar 2022",
+                "do1": " My contributions include, maintaining, organizing files, and prototyping in Figma in, graphic design, illustration, and UX writing.",
+                "do2": " Composed an interactive Figma prototype and Figma mirror prototype by connecting 100+ frames and creating 15+ animations that engage users with the app design"
+            },
+            {
+                "id": 3,
+                "position": "UI/UX Designer",
+                "company": "Freelance",
+                "date": "Jan 2020 - Present",
+                "do1": "Creating UI Design from design briefs or documents and also ensuring technical UI/UX Design."
+            },
+            {
+                "id": 4,
+                "position": "UI/UX Designer (Intern)",
+                "company": "Kotakode.com",
+                "date": "Jun 2020 - Sep 2020",
+                "do1": "Creating UI Design from design briefs or documents and also ensuring technical UI/UX Design"
+            }
+        ]
+    },
+    "port": {
+        "project": [
+            {
+                "title": "MOaja X Propertex - Design System",
+                "image": "MOaja-doc.png",
+                "link": "project-one"
+            },
+            {
+                "title": "MOaja X Propertex",
+                "image": "MOaja.png",
+                "link": "https://mushawwirrd.github.io/nancy/"
+            }
+        ]
+    },
+    "footer": {
+        "copy": "©2025 All Rights Reserved",
+        "message": "Made with 💙 by",
+        "social": [
+            {
+                "socialName": "LinkedIn",
+                "socialIcon": "linkedin.svg"
+            },
+            {
+                "socialName": "Github",
+                "socialIcon": "github-otln.svg"
+            },
+            {
+                "socialName": "Behance",
+                "socialIcon": "behance.svg"
+            }
+        ]
+    }
+}
