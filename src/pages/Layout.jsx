@@ -1,7 +1,7 @@
 
 
 import { useEffect, useState } from "react";
-import { Outlet, useLocation } from "react-router-dom";
+import { Link, Outlet, useLocation } from "react-router-dom";
 
 export default function Layout() {
     const [active, setActive] = useState("hero")
@@ -13,18 +13,18 @@ export default function Layout() {
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
 
-                if(entry.isIntersecting){
+                if (entry.isIntersecting) {
                     setActive(entry.target.id)
                 }
 
             })
-        }, {threshold : 0.6})
+        }, { threshold: 0.6 })
 
         section.forEach(sec => observer.observe(sec))
 
         return () => observer.disconnect()
 
-    },[location])
+    }, [location])
 
     return (
         <div >
@@ -34,7 +34,7 @@ export default function Layout() {
                 <div className="flex items-center justify-center w-fit bg-primary rounded-xl px-[6px] py-[14px] shadow-sm">
 
                     <div >
-                        <a href="#hero" className="text-lg font-sans font-bold tracking-wide text-white px-4">F</a>
+                        <Link to="/faiz-live-demo-preview/" className="text-lg font-sans font-bold tracking-wide text-white px-4">F</Link>
                     </div>
 
                     <ul className="flex space-x-1  ">

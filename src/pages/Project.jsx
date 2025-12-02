@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom"
 import Button from "../components/Button/Button"
 
 export default function Project({ data }) {
+
   if (!data) return null
 
   const myProject =
@@ -18,11 +20,8 @@ export default function Project({ data }) {
 
               <h1 className="text-lg lg:text-xl font-bold mb-3">{prj.title}</h1>
 
-             
-
               <div className="self-end">
                 <Button href={prj.link} lable="Read More" />
-              
               </div>
 
             </div>

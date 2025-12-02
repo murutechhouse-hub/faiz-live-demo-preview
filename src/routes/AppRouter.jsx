@@ -5,6 +5,7 @@ import NoPages from "../pages/NoPages"
 import Content from "../pages/Content"
 import ProjectOne from "../pages/Project1"
 import { useEffect, useState } from "react"
+import Project2Page1 from "../pages/Project2-Page1"
 
 
 function AppRouter() {
@@ -21,11 +22,12 @@ function AppRouter() {
     return (
         <BrowserRouter >
             <Routes>
-                <Route path="/faiz-live-demo-preview//" element={<Layout />}>
+                <Route path="/faiz-live-demo-preview/" element={<Layout />}>
 
                     <Route index element={<Content />} />
 
                     <Route path="project-one" element={<ProjectOne data={data.portDetail} />} />
+                    <Route path="project-two" element={<Project2Page1 data={data.portDetail2} />} />
 
 
 

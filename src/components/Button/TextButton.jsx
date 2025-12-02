@@ -1,14 +1,12 @@
 
-export default function TextButton({ href, target, lable }) {
+export default function TextButton({ lable, click }) {
     return (
-        <div className="">
-            <a href={href}
-                target={target}
-            >
+        <div >
+            <button onClick={click} className="" >
 
                 {lable}
 
-            </a>
+            </button>
         </div>
     )
 }
