@@ -1,10 +1,12 @@
 
-
+import Footer from "./Footer"
 import { useEffect, useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 
 export default function Layout() {
+    const [data, setData] = useState()
     const [active, setActive] = useState("hero")
+
     const location = useLocation()
 
     useEffect(() => {
@@ -26,6 +28,14 @@ export default function Layout() {
 
     }, [location])
 
+    useEffect(() => {
+        fetch(`${import.meta.env.BASE_URL}port.json`)
+            .then(res => res.json())
+            .then(result => setData(result))
+    }, [])
+
+    if (!data) return null
+
     return (
         <div >
 
@@ -34,14 +44,14 @@ export default function Layout() {
                 <div className="flex items-center justify-center w-fit bg-primary rounded-xl px-[6px] py-[14px] shadow-sm">
 
                     <div >
-                        <Link to="/faiz-live-demo-preview/" className="text-lg font-sans font-bold tracking-wide text-white px-4">F</Link>
+                        <Link to="/" className="text-lg font-sans font-bold tracking-wide text-white px-4">F</Link>
                     </div>
 
                     <ul className="flex space-x-1  ">
 
                         <li >
                             <a
-                                href="#hero"
+                                href="/#hero"
 
                                 className={`${active === "hero" ? "font-semibold py-3 px-4 bg-secondary rounded-xl text-primary" : "font-semibold py-4 px-4 text-secondary "}`}>
                                 Home
@@ -72,6 +82,7 @@ export default function Layout() {
 
             <Outlet />
 
+            <Footer data={data.footer} />
         </div>
     )
 }

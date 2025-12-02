@@ -2,9 +2,7 @@
     "main": {
         "name": "Faiz",
         "role": "UI",
-        "photo": "faiz.jpg",
         "desc": "Passionate about creating inclusive and accessible experiences for everyone",
-        "desc2": "",
         "social": [
             {
                 "socialName": "LinkedIn",
@@ -21,6 +19,7 @@
         ]
     },
     "about": {
+        "photo": "faiz.jpg",
         "prg1": "Hi, I'm a UI designer",
         "prg2": "Passionate about creating inclusive and accessible experiences for everyone. Beyond design, I am currently on a journey to become a therapist, expanding my skills in understanding people and emotional growth.",
         "prg3": "In my spare time, you’ll often find me exploring pottery, ceramics, or sculpture."
@@ -71,8 +70,8 @@
             }
         ]
     },
-    "portDetail": {
-        "projectDetail": [
+    "portDetail1": {
+        "project1": [
             {
                 "title": "MOaja X Propertex - Design System",
                 "prjct_image": "MOaja-doc.png",
@@ -85,12 +84,40 @@
                 "evaluation_image1": "flow.jpg",
                 "evaluation_2": "In this evaluation stage, I collect all components in one Figma project. It is intended to know how many files must be separated and updated, as well as how big the impact is on the on-going project.",
                 "evaluation_image2": "component.jpg",
-                "evaluation_3": "Above is an example of the inconsistency in using components in the library, such as instance components (ragu juga ini) and changing the predefined font size. The inconsistency in small components will have a big impact on the design in general. Therefore, a library that concatenates all projects consistently is needed, including those small components."
+                "evaluation_3": "Above is an example of the inconsistency in using components in the library, such as instance components (ragu juga ini) and changing the predefined font size. The inconsistency in small components will have a big impact on the design in general. Therefore, a library that concatenates all projects consistently is needed, including those small components.",
+                "audit1": "Some projects may require a different structural design system. This is specified based on number of projects, number of component variation, team members, or how much the influence of the stakeholder.",
+                "audit2": "I use Atomic Design not for all entities, but only for Atoms and Molecules needed in audit and compilation.",
+                "audit3": "Some reasons why I use atomic design:",
+                "auditpoint1": "Stakeholder’s target which can be helped in the design system, specifically only for required design, stakeholder operation, and engineer.",
+                "auditpoint2": "The number of component type that will be integrated in the design system, i.e. Design, Guideline, and Code for Engineer.",
+                "auditpoint3": "The number of components used in come projects. The components used are not too many because there are more reused components in some flows. A small example is the large use of Text Field and other supporting components.",
+                "audit4": "Why does it only use atoms and molecules? Because in this case it is only used for collecting many small duplicated components. With the use of atoms and molecules, it will be really helpful in separating the existing components.",
+                "audit5": "Atomic design assists in managing complicated components, but it makes the designer confused for trying to find the components in the wrong category.",
+                "audit6": "After completing the audit and compiling all the components, then it will be easy to categorize it, separation of pages for different components, like Payment, Residential Menu (Propertek), Commercial Menu (MOaja), etc.",
+                "craft": "After gathering many components and finding which components are still used and which are not used since the project started, Taking advantage of the update from Figma that can facilitate creating a component that can be used in many cases, there will be no change in terms of size and style. Nevertheless, there is only a change in the parent component, which is useful for the designer and engineer in documenting the design system.",
+                "craftimage1": "craft1.jpg",
+                "craftimage2": "craft3.jpg",
+                "craft2": "God bless for Figma because, in recent years, there have been many updates that can help the designer work faster and more efficiently. With those updates, there is a simple library design, and it will not require building many components if they can be arranged in Properties.",
+                "craftimage3": "craft3.jpg",
+                "craftimage4": "craft4.jpg",
+                "craftimage5": "craft5.jpg",
+                "discussion": "With the discussion between stakeholders because of this system design documentation, in order to standardize and make it consistent for the project design being carried out. Also, to make it easy to transfer knowledge among the designers in a team.",
+                "cunclusion": "Iteration and valuation will be done continuously so that this system design documentation can be a structure for many projects and can help other stakeholders in consistency, as well as become delightful for users.",
+                "improve": "What can I improve here are:",
+                "improvepoint1": "I am still learning a lot about naming a token system so that its utilization can be on a large scale for developers.",
+                "improvepoint2": "I have to ensure that all related components can be connected consistently in the library design or the system design.",
+                "improvepoint3": "It takes a lot of time to build proper system design documentation because it is accompanied by other related projects.",
+                "improvepoint4": "It is not completely turning this design system into a single source truth.",
+                "goodpoint": "The good points here are:",
+                "goodpoint1": "It becomes more consistent in every project",
+                "goodpoint2": "Engineers are more obedient toward the library design",
+                "goodpoint3": "It is easier in product knowledge or product iteration with other stakeholders",
+                "goodpoint4": "Design work becomes faster"
             }
         ]
     },
     "portDetail2": {
-        "detail": [
+        "project2": [
             {
                 "title": "MOaja X Propertex (Keep Editing)",
                 "prjct_image": "MOaja.png",
@@ -100,50 +127,67 @@
                 "prg3": "In this portfolio, I only explain some cases that happened, the process, and the outcome, as well as the lesson learned from me personally, to the team members. I will also show the product result partially because of confidential reasons.",
                 "prg4": "Throughout the project, there are numerous challenges. These are some problems I found, along with the solution I tried to give as a single designer.",
                 "evaluation_1": "Before I join in Nusatek.id The design system is still separate for every different project. Due to the possibility of collaboration among the projects that need a consistent design as a whole and in detail, a library design that can oversee several other projects is needed so that the resulting design can be consistent and delightful for the users who use it.",
-                "link1": "False Simplicity",
-                "link2": "Heuristic Design of MOaja x Propertek"
+                "link1": "/project-false",
+                "link2": "/project-heuristic",
+                "lable1": "False Simplicity",
+                "lable2": "Heuristic Design of MOaja x Propertek"
             }
         ]
     },
-    "portDetail2P2": {
-        "detail": [
+    "project2p2": {
+        "page2": [
             {
-                "title": "MOaja X Propertex",
-                "prjct_image": "MOaja-doc.png",
-                "background": "“How to create and maintain a scalable library design that is easy to use and accessible for all team members, as well as make our products delightful for the user?”",
-                "backgroundPoint": "Departing from the question above, I make a summary regarding some problems as follows:",
-                "backgroundPoint_1": "The previous designer flow shows freedom in determining style guides like cards, buttons, fonts, or some basic decisions such as padding and margin. In this case, a designer will only think about how a design can be fast for solving the user's problem when using the App.",
-                "backgroundPoint_2": "With the addition or replacement of team members, a clear and organized library design is highly needed in order to ease knowledge sharing among the team members.",
-                "backgroundPoint_3": "The difficulty in finding certain components is due to the high number of duplication designs, as well as disorganized and poorly stored files in one folder.",
-                "evaluation_1": "Before I join in Nusatek.id The design system is still separate for every different project. Due to the possibility of collaboration among the projects that need a consistent design as a whole and in detail, a library design that can oversee several other projects is needed so that the resulting design can be consistent and delightful for the users who use it.",
-                "evaluation_image1": "flow.jpg",
-                "evaluation_2": "In this evaluation stage, I collect all components in one Figma project. It is intended to know how many files must be separated and updated, as well as how big the impact is on the on-going project.",
-                "evaluation_image2": "component.jpg",
-                "evaluation_3": "Above is an example of the inconsistency in using components in the library, such as instance components (ragu juga ini) and changing the predefined font size. The inconsistency in small components will have a big impact on the design in general. Therefore, a library that concatenates all projects consistently is needed, including those small components."
+                "title": "False Simplicity",
+                "process": "As a designer, simplicity is a goal we strive for with everything we design. We want our designs to become usable and intuitive which can often be mistaken for clean or minimal visual design. Then, it can lead to a misleading condition which also could ruin the usability of the design itself. This happened to me at the beginning when I created a clear and more simple design in order to make the users more focused on the goals. Nevertheless, as the project runs, we found some cases and one of them is about the user who was not aware that the login expired. After we did some research, evidently about XX% of users are not aware that they have been logged out from the application so they will not receive any notification related to the apartment’s bill.",
+                "processimg": "process.png",
+                "outcome": "Some choices I made to draw the attention of users to log back in so they can receive the bill notification and pay the bill. The first option I give is removing the header and changing it to a pop up modal so the user can increase their awareness by the display. After a discussion with other stakeholders, apparently there are some concerns associated with timeline and technicality in developers.",
+                "outcomeimg1": "outcome1.png",
+                "outcomeimg2": "outcome2.png",
+                "outcome2": "The second option I gave and approved by the stakeholders is by making it has no difference with the first design but modifying some components, button, box, and style including font and stroke card. After further research, there is a decrease in XX% user experience so they become more conscious with the login expired without changing it significantly."
             }
         ]
     },
-    "portDetail2P21": {
-        "detail": [
+    "project2p21": {
+        "page21": [
             {
-                "title": "MOaja X Propertex - Design System",
-                "prjct_image": "MOaja-doc.png",
-                "background": "“How to create and maintain a scalable library design that is easy to use and accessible for all team members, as well as make our products delightful for the user?”",
-                "backgroundPoint": "Departing from the question above, I make a summary regarding some problems as follows:",
-                "backgroundPoint_1": "The previous designer flow shows freedom in determining style guides like cards, buttons, fonts, or some basic decisions such as padding and margin. In this case, a designer will only think about how a design can be fast for solving the user's problem when using the App.",
-                "backgroundPoint_2": "With the addition or replacement of team members, a clear and organized library design is highly needed in order to ease knowledge sharing among the team members.",
-                "backgroundPoint_3": "The difficulty in finding certain components is due to the high number of duplication designs, as well as disorganized and poorly stored files in one folder.",
-                "evaluation_1": "Before I join in Nusatek.id The design system is still separate for every different project. Due to the possibility of collaboration among the projects that need a consistent design as a whole and in detail, a library design that can oversee several other projects is needed so that the resulting design can be consistent and delightful for the users who use it.",
-                "evaluation_image1": "flow.jpg",
-                "evaluation_2": "In this evaluation stage, I collect all components in one Figma project. It is intended to know how many files must be separated and updated, as well as how big the impact is on the on-going project.",
-                "evaluation_image2": "component.jpg",
-                "evaluation_3": "Above is an example of the inconsistency in using components in the library, such as instance components (ragu juga ini) and changing the predefined font size. The inconsistency in small components will have a big impact on the design in general. Therefore, a library that concatenates all projects consistently is needed, including those small components."
+                "title": "Heuristic Design of MOaja x Propertek",
+                "prg1": "Heuristic evaluation is really useful to identify problems at the interface. Heuristics cannot replace user research, for sure, but it can be an early evaluation for the team and help identify certain elements of the design to be precise when conducted on the real user.",
+                "objctv": "In this case, we’re reviewing the app to improve the app’s user flow and the user experience for Propertek. Here, I use Jakob Nielsen's 10 heuristics.",
+                "objctv1": "I will note cover all the screen here, but hopefully it can present some commons that I found",
+                "vsblt1": "Visibility of system status is the first usability heuristic from Nielsen Norman Group, which refers to the system that should inform users of what is happening or the system’s state by giving clear, appropriate, and timely feedback.",
+                "vsblt2": "On the project I’m working on, I always try to follow the rules in making UI Design so the project result can achieve the business’ objectives as well as the user's goals.",
+                "vsbltimg": "vsblt.png",
+                "cmptblty1": "A familiar design for the user is an allusion to a comfortable interface for the user. The system works like a user or human works, where they do not have any difference.",
+                "cmptblty2": "The system should speak the users' language, with words, phrases, and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order - NNGroup",
+                "cmptbltyimg": "cmptblty.png",
+                "usr": "The user has full control over dealing with the use of an App. It means that a user can perform his job easily and quickly to achieve the application’s goals, such as paying the bills and booking a facility. The user must have the power to take control of anything they do in the application, even small things like going back to the previous page, deleting contents, undoing unwanted contents, or canceling on-going activity.",
+                "usrimg": "usr-cntrl.png",
+                "cnsstn1": "Consistency and Standard are identified in terms of language, design, and components within different elements and cases that must be arranged consistently.",
+                "cnsstn2": "According to the Interaction Design Foundation, there are two key factors that become important points of consistency and standard. The first one is user-reduced learning, which ensures the user does not need to relearn about the context of a new activity when finishing a new task. Another thing is related to eliminating confusion. When the user is doing a certain activity, he should not have to spend time figuring out what is wrong or which interaction leads to an incorrect procedure.",
+                "cnsstn3": "Confusion causes frustration, and frustration will make for a bad experience for the user.",
+                "cnsstnimg": "cnsstn.png",
+                "err": "Preventing an error is pretty much better than to a designed error. When using a product and the user faces an error, it does not mean there is a mistake on the user's side. There are two types of errors based on Don Norman's books, i.e., Slips and mistakes. Slips often occur when the user is familiar with a particular activity but accidentally makes an error. On the other hand, mistakes often occur when users are not familiar with a specific activity on the apps. Therefore, it is necessary for a designer to know the mental model for understanding the user’s habit of using the application in a particular case.",
+                "errimg": "err.png",
+                "rcgn": "Recognition means recognizing the information, thing, or event as familiar in our memory. Recall means retrieving previously learned information without the aid of or with very few external cues. For example, when we try to login to Instagram, we will be served with a login option to enter with our previous saved account. This is what I need to improve in my design; one example is in the search section. When the users want to find their unit in the apartment, it will display the previous search for the unit or content. This is intended to ease the user's task if they have more than one unit or a complex unit name.",
+                "rcgnimg": "rcgn.png",
+                "flx1": "In order to accommodate both novice and experienced users, shortcuts may speed up interaction for the expert user and allow the user to create routine tasks. Users can select the technique that best suits them by using flexible procedures, which can be implemented in a variety of ways.",
+                "flx2": "As a designer, of course I have to make a design that is flexible and efficient for the user, but with the current system here and a lot of requirements for users, it can be tricky and challenging for me to be an intersection between the business side and the design.",
+                "flximg": "flx.png",
+                "asstc1": "Interfaces shouldn't provide information that is unnecessary. As a designer, I have to keep negotiating with the information submitted by stakeholders as well as selecting the information I must put on the display so that all displayed information is really needed by the users, not unnecessary.",
+                "asstc2": "There are several things I should improve here, and one of them is using many colors in one component.",
+                "asstcimg": "asstc.png",
+                "hlpusr1": "Due to users' inability to avoid making mistakes, errors cannot be prevented. The best thing system designers can do is create the system in a way that leaves little to no room for error.",
+                "hlpusr2": "Because in this work I also do UX writing, which I am not an expert at, there are many possibilities for improvement in this text.",
+                "hlp": "Help and documentation may be required to assist users in understanding how to complete their tasks. I'm trying to create clear information and highlight the keyword.",
+                "hlpimg": "hlp.png",
+                "lsn1": "What I explain may not describe the heuristic design of this project in detail, but there are some inconsistencies and inconveniences in the design that I have to learn about and improve.",
+                "lsn2": "Nevertheless, it cannot override the fact that this app has been utilized by many users in apartments that are collaborating with Propertek, and there is an increase in the number of users due to some improvements that have been and continue to be made.",
+                "lsn3": "For this lesson, I reflect on the fact that great design is built on critical thinking and collaboration among related stakeholders. For each stage of the design process, brainstorming with the teams should be done while keeping the users' needs in mind."
             }
         ]
     },
     "footer": {
         "copy": "©2025 All Rights Reserved",
-        "message": "Made with 💙 by",
         "social": [
             {
                 "socialName": "LinkedIn",

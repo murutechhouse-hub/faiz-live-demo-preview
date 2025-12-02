@@ -1,13 +1,19 @@
+import { Link } from "react-router-dom"
 
 export default function TextButton({ lable, click }) {
     return (
-        <div >
-            <button onClick={click} className="" >
+        <div>
+
+            <Link
+
+                to={click}
+
+                className="">
 
                 {lable}
 
-            </button>
+            </Link>
+
         </div>
     )
 }
-

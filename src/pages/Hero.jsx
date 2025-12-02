@@ -39,7 +39,7 @@ export default function Hero({ data }) {
 
                 </div>
 
-                <div className="flex flex-row items-center justify-between w-full mb-8">
+                <div className="flex flex-row items-center justify-center w-full mb-8">
 
                     <motion.div
                         initial={{ opacity: 0, y: 9 }}
@@ -47,24 +47,6 @@ export default function Hero({ data }) {
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}>
                         <Button href="https://linktr.ee/mushawwirrd" lable="Contact Me" />
-                    </motion.div>
-
-                    <motion.div
-                        initial={{ opacity: 0, y: 12 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 1 }}
-                        viewport={{ once: true }}
-                        className="flex items-center justify-center ">
-
-                        <motion.img
-                            initial={{ opacity: 0, y: 5 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1 }}
-                            viewport={{ once: true }}
-                            src={data.photo}
-                            alt={data.name}
-                            className="w-20 lg:w-24 shadow-2xl rounded-xl" />
-
                     </motion.div>
 
                 </div>

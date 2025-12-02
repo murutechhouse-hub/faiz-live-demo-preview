@@ -2,7 +2,6 @@ import Hero from './Hero'
 import AboutMe from './AboutMe'
 import Experience from "./Experience"
 import Project from "./Project"
-import Footer from "./Footer"
 import { useEffect, useState } from 'react'
 
 function Content() {
@@ -25,7 +24,7 @@ function Content() {
             <Experience data={data.myExperience} />
             <Project data={data.port} />
 
-            <Footer data={data.footer} />
+            {/* <Footer data={data.footer} /> */}
 
         </div>
     )

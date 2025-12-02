@@ -9,15 +9,27 @@ export default function AboutMe({ data }) {
 
                     <div>
 
-                        <h1 className='text-primary text-3xl lg:text-4xl  font-bold'>About Me<span className="text-5xl text-secondary20">.</span></h1>
+                        <div >
+                            <h1 className='text-primary text-3xl lg:text-4xl  font-bold'>
+                                About Me
+                                <span className="text-5xl text-secondary20">.</span>
+                            </h1>
+                        </div>
 
 
 
                         <div className="mt-5  md:w-[700px] md:mx-12 lg:text-xl ">
 
-                            <p className="font-bold text-2xl">
-                                {data.prg1}
-                            </p>
+                            <div className="flex  items-center justify-start gap-x-3 mb-3">
+                                <img
+                                    src={data.photo}
+                                    alt="Faiz"
+                                    className="w-12 lg:w-16 shadow-2xl rounded-xl" />
+
+                                <p className="font-bold text-xl lg:text-2xl ">
+                                    {data.prg1}
+                                </p>
+                            </div>
 
                             <p className="mb-3">
                                 {data.prg2}

@@ -1,11 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { useEffect, useState } from "react"
+
+import ScrollToTop from "../components/ScrollToTop"
 
 import Layout from "../pages/Layout"
 import NoPages from "../pages/NoPages"
 import Content from "../pages/Content"
 import ProjectOne from "../pages/Project1"
-import { useEffect, useState } from "react"
-import Project2Page1 from "../pages/Project2-Page1"
+import ProjectTwo from "../pages/Project2"
+import Project2Page2 from "../pages/Project2Page2"
+import Project2Page21 from "../pages/Project2Page21"
 
 
 function AppRouter() {
@@ -20,16 +24,18 @@ function AppRouter() {
     if (!data) return null
 
     return (
-        <BrowserRouter basename="/faiz-live-demo-preview">
+        <BrowserRouter basename="/faiz-live-demo-preview/">
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<Layout />}>
 
                     <Route index element={<Content />} />
 
-                    <Route path="project-one" element={<ProjectOne data={data.portDetail} />} />
-                    <Route path="project-two" element={<Project2Page1 data={data.portDetail2} />} />
+                    <Route path="project-one" element={<ProjectOne data={data.portDetail1} />} />
+                    <Route path="project-two" element={<ProjectTwo data={data.portDetail2} />} />
 
-
+                    <Route path="project-false" element={<Project2Page2 data={data.project2p2} />} />
+                    <Route path="project-heuristic" element={<Project2Page21 data={data.project2p21} />} />
 
                     <Route path="*" element={<NoPages />} />
                 </Route>

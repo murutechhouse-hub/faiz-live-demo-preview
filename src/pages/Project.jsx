@@ -21,7 +21,7 @@ export default function Project({ data }) {
               <h1 className="text-lg lg:text-xl font-bold mb-3">{prj.title}</h1>
 
               <div className="self-end">
-                <Button href={prj.link} lable="Read More" />
+                <Button click={prj.link} lable="Read More" />
               </div>
 
             </div>
