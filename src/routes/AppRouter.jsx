@@ -20,9 +20,9 @@ function AppRouter() {
     if (!data) return null
 
     return (
-        <BrowserRouter >
+        <BrowserRouter basename="/faiz-live-demo-preview">
             <Routes>
-                <Route path="/faiz-live-demo-preview/" element={<Layout />}>
+                <Route path="/" element={<Layout />}>
 
                     <Route index element={<Content />} />
 
