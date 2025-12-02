@@ -23,9 +23,7 @@
     "about": {
         "prg1": "Hi, I'm a UI designer",
         "prg2": "Passionate about creating inclusive and accessible experiences for everyone. Beyond design, I am currently on a journey to become a therapist, expanding my skills in understanding people and emotional growth.",
-        "prg3": "In my spare time, you’ll often find me exploring pottery, ceramics, or sculpture.",
-        "prg4": "",
-        "prg5": ""
+        "prg3": "In my spare time, you’ll often find me exploring pottery, ceramics, or sculpture."
     },
     "myExperience": {
         "experience": [
@@ -41,15 +39,14 @@
                 "position": "UI Designer",
                 "company": " Batara Guru Teknologi",
                 "date": "Sep 2020 - Mar 2022",
-                "do1": " My contributions include, maintaining, organizing files, and prototyping in Figma in, graphic design, illustration, and UX writing.",
-                "do2": " Composed an interactive Figma prototype and Figma mirror prototype by connecting 100+ frames and creating 15+ animations that engage users with the app design"
+                "do1": " My contributions include, maintaining, organizing files, and prototyping in Figma in, graphic design, illustration, and UX writing."
             },
             {
                 "id": 3,
                 "position": "UI/UX Designer",
                 "company": "Freelance",
                 "date": "Jan 2020 - Present",
-                "do1": "Creating UI Design from design briefs or documents and also ensuring technical UI/UX Design."
+                "do1": "Creating and maintaining UI design, including component libraries, typography, color palettes, and other design elements, and ensuring consistency and usability of all design elements."
             },
             {
                 "id": 4,
@@ -71,6 +68,24 @@
                 "title": "MOaja X Propertex",
                 "image": "MOaja.png",
                 "link": "https://mushawwirrd.github.io/nancy/"
+            }
+        ]
+    },
+    "portDetail": {
+        "projectDetail": [
+            {
+                "title": "MOaja X Propertex - Design System",
+                "prjct_image": "MOaja-doc.png",
+                "background": "“How to create and maintain a scalable library design that is easy to use and accessible for all team members, as well as make our products delightful for the user?”",
+                "backgroundPoint": "Departing from the question above, I make a summary regarding some problems as follows:",
+                "backgroundPoint_1": "The previous designer flow shows freedom in determining style guides like cards, buttons, fonts, or some basic decisions such as padding and margin. In this case, a designer will only think about how a design can be fast for solving the user's problem when using the App.",
+                "backgroundPoint_2": "With the addition or replacement of team members, a clear and organized library design is highly needed in order to ease knowledge sharing among the team members.",
+                "backgroundPoint_3": "The difficulty in finding certain components is due to the high number of duplication designs, as well as disorganized and poorly stored files in one folder.",
+                "evaluation_1": "Before I join in Nusatek.id The design system is still separate for every different project. Due to the possibility of collaboration among the projects that need a consistent design as a whole and in detail, a library design that can oversee several other projects is needed so that the resulting design can be consistent and delightful for the users who use it.",
+                "evaluation_image1": "flow.jpg",
+                "evaluation_2": "In this evaluation stage, I collect all components in one Figma project. It is intended to know how many files must be separated and updated, as well as how big the impact is on the on-going project.",
+                "evaluation_image2": "component.jpg",
+                "evaluation_3": "Above is an example of the inconsistency in using components in the library, such as instance components (ragu juga ini) and changing the predefined font size. The inconsistency in small components will have a big impact on the design in general. Therefore, a library that concatenates all projects consistently is needed, including those small components."
             }
         ]
     },

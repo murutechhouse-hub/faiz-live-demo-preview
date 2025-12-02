@@ -3,11 +3,20 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Layout from "../pages/Layout"
 import NoPages from "../pages/NoPages"
 import Content from "../pages/Content"
-import ProjectOne from "../pages/ProjectOne"
+import ProjectOne from "../pages/Project1"
+import { useEffect, useState } from "react"
 
 
 function AppRouter() {
+    const [data, setData] = useState()
 
+    useEffect(() => {
+        fetch(`${import.meta.env.BASE_URL}port.json`)
+            .then(res => res.json())
+            .then(result => setData(result))
+    }, [])
+
+    if (!data) return null
 
     return (
         <BrowserRouter >
@@ -16,7 +25,7 @@ function AppRouter() {
 
                     <Route index element={<Content />} />
 
-                    <Route path="project-one" element={<ProjectOne />} />
+                    <Route path="project-one" element={<ProjectOne data={data.portDetail} />} />
 
 
 
