@@ -94,7 +94,7 @@
             {
                 "title": "MOaja X Propertex (Keep Editing)",
                 "prjct_image": "MOaja.png",
-                "declaimer": "The project is not shown in detail due to confidential reasons",
+                "dscl": "The project is not shown in detail due to confidential reasons",
                 "prg1": "MOaja has two environments, i.e., commercial and residential. In this case, residential is a specific menu or feature from Propertek for residential management, such as environmental management fees payment, complaint and reporting facility, announcement from building management, apartment booking facility, and other facilities that can be accessed directly by residents through the MOaja application.",
                 "prg2": "I was given a task to implement the data that has been discussed related to the application of Propertek’s residential management feature in the MOaja application, as well as the PRD-based wireframe, which is created with adjustments and approval from the product owner or UX team. The coordination among some teams, including the product owner, Business Analyst (UX Team), product manager, and developers, became my first experience working with a team on a larger scale.",
                 "prg3": "In this portfolio, I only explain some cases that happened, the process, and the outcome, as well as the lesson learned from me personally, to the team members. I will also show the product result partially because of confidential reasons.",
