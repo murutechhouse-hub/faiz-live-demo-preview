@@ -1,3 +1,4 @@
+import TextButton from "../components/Button/TextButton"
 
 export default function Project2Page1({ data }) {
 
@@ -5,6 +6,15 @@ export default function Project2Page1({ data }) {
 
         <div>
             <h1>{p.title}</h1>
+            <p>📌 {p.dscl}</p>
+            <p>{p.prg1}</p>
+            <p>{p.prg2}</p>
+            <p>{p.prg3}</p>
+            <p>{p.prg4}</p>
+
+            <TextButton lable={p.link1} />
+            <TextButton lable={p.link2} />
+
         </div>
 
     ))
