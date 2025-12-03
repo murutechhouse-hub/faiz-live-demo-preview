@@ -1,9 +1,9 @@
-import ButtonIcon from "../components/Button/IconButton"
+import ButtonIcon from "../components/Button/IconButton/IconButton"
 
 export default function AboutMe({ data }) {
     if (!data) return "null"
     return (
-        <section id="about" className="pt-20 lg:pt-16 bg-background">
+        <section id="about" className="pt-7 lg:pt-16 bg-background">
             <div >
                 <div className="flex flex-col lg:flex-row mx-8 lg:mx-10">
 

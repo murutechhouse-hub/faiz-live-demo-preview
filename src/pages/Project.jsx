@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom"
-import Button from "../components/Button/Button"
+import Button from "../components/Button/PrimaryButton/PrimaryButton"
+import PrimarySmall from "../components/Button/PrimaryButton/PrimarySmall"
 
 export default function Project({ data }) {
 
@@ -20,7 +21,11 @@ export default function Project({ data }) {
 
               <h1 className="text-lg lg:text-xl font-bold mb-3">{prj.title}</h1>
 
-              <div className="self-end">
+              <div className="self-end block lg:hidden">
+                <PrimarySmall click={prj.link} lable="Read More" />
+              </div>
+
+              <div className="self-end hidden lg:block">
                 <Button click={prj.link} lable="Read More" />
               </div>
 

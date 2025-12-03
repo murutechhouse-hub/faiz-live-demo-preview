@@ -1,4 +1,3 @@
-
 import Footer from "./Footer"
 import { useEffect, useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";

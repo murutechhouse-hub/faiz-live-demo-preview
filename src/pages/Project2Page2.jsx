@@ -3,28 +3,48 @@
 export default function Project2Page2({ data }) {
 
   const project = data.page2.map(p => (
-    <div>
-      <h1>{p.title}</h1>
 
-      <h3>Process</h3>
-      <p>{p.process}</p>
-
+    <div className="flex flex-col">
+      {/* Tittle */}
       <div>
-        <img src={p.processimg} alt={p.processimg} />
+        <h1 className="text-xl lg:text-3xl font-bold">{p.title}</h1>
       </div>
 
-      <h3>Outcome</h3>
-      <p>{p.outcome}</p>
+      {/* Process */}
+      <div className="mt-5">
 
-      <div>
-        <img src={p.outcomeimg1} alt={p.outcomeimg1} />
+        <h3 className="text-lg lg:text-xl font-bold mb-2">Process</h3>
+
+        <div className="flex flex-col gap-y-3 lg:w-11/12 ">
+          <p>{p.process}</p>
+
+          <div className="flex justify-center">
+            <img src={p.processimg} alt={p.processimg} className="overflow-hidden rounded-md lg:h-[600px]" />
+          </div>
+        </div>
+
       </div>
 
-      <div>
-        <img src={p.outcomeimg2} alt={p.outcomeimg2} />
-      </div>
+      {/* Outcome */}
+      <div className="mt-5">
 
-<p>{p.outcome2}</p>
+        <h3 className="text-lg lg:text-xl font-bold mb-2">Outcome</h3>
+
+        <div className="flex flex-col gap-y-3 lg:w-11/12">
+          <p>{p.outcome}</p>
+
+          <div className="flex justify-center">
+            <img src={p.outcomeimg1} alt={p.outcomeimg1} className="overflow-hidden rounded-md lg:h-[536px]" />
+          </div>
+
+          <div className="flex justify-center">
+            <img src={p.outcomeimg2} alt={p.outcomeimg2} className="overflow-hidden rounded-md lg:h-[600px]" />
+          </div>
+
+          <p>{p.outcome2}</p>
+        </div>
+
+      </div>
 
     </div>
   ))
