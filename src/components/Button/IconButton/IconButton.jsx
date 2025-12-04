@@ -3,7 +3,8 @@ function ButtonIcon({ href, src, target, alt, icon }) {
     return (
 
         <div className="">
-            <a href={href}
+            <a
+                href={href}
                 target={target}
             >
                 {icon}
