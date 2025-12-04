@@ -1,5 +1,6 @@
 import ButtonIcon from "../components/Button/IconButton/IconButton"
 import Button from "../components/Button/PrimaryButton/PrimaryButton"
+import PrimarySection from "../components/Button/PrimaryButton/PrimarySection"
 
 function Footer({ data }) {
 
@@ -17,7 +18,7 @@ function Footer({ data }) {
                     </div>
 
                     <div className="flex items-center justify-center mb-10 ">
-                        <Button click="mailto:fsutdrazat@gmail.com" lable={"Let's Build It"} />
+                        <PrimarySection click="#about" lable="Let's Build It" />
                     </div>
 
                     <div className="flex flex-row justify-center gap-5 lg:justify-start mb-4">

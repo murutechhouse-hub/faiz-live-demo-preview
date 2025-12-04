@@ -7,7 +7,7 @@ export default function Experience({ data }) {
     if (!data) return null
 
     const myExperience =
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap lg:justify-center ">
 
             {data.experience.map((ex, i) => {
                 return (
@@ -36,6 +36,7 @@ export default function Experience({ data }) {
         <section className="pt-16 bg-background">
 
             <div >
+
                 <div className="mx-8 lg:mx-10 ">
 
                     <h1 className='text-primary text-3xl lg:text-4xl font-bold'>Experience<span className="text-5xl text-secondary20">.</span></h1>
@@ -45,11 +46,11 @@ export default function Experience({ data }) {
                     </div>
 
                     <div className=" flex justify-center mt-10">
-                        <OutLineButton href="https://drive.google.com/drive/folders/1rg9GioRG2ZKG45LN2odWKof5gwG6ehBd?usp=sharing" lable="See Resume Details" />
-
+                        <OutLineButton href="https://drive.google.com/drive/folders/1rg9GioRG2ZKG45LN2odWKof5gwG6ehBd?usp=sharing" lable="Resume Details" />
                     </div>
 
                 </div>
+
             </div>
 
         </section>

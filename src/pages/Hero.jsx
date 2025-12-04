@@ -1,5 +1,6 @@
 import Button from "../components/Button/PrimaryButton/PrimaryButton"
 import { motion } from "motion/react"
+import PrimarySection from "../components/Button/PrimaryButton/PrimarySection"
 
 export default function Hero({ data }) {
 
@@ -7,7 +8,7 @@ export default function Hero({ data }) {
     if (!data) return null
 
     return (
-        <section id="hero" className="pt-44 lg:pt-32 bg-background">
+        <section id="/" className="pt-44 lg:pt-32 bg-background">
 
             <div className="flex flex-col items-center mx-8 justify-center lg:mx-10">
 
@@ -47,8 +48,8 @@ export default function Hero({ data }) {
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}
                         className="my-8"
-                    >
-                        <Button click="https://linktr.ee/mushawwirrd" lable="Contact Me" />
+                    > 
+                        <PrimarySection click="#project" lable="Check Project" />
                     </motion.div>
 
                 </div>

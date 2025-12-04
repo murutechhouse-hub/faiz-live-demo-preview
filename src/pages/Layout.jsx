@@ -49,12 +49,12 @@ export default function Layout() {
                     <ul className="flex space-x-1  ">
 
                         <li >
-                            <a
-                                href="/#hero"
+                            <Link
+                                to="/"
 
-                                className={`${active === "hero" ? "font-semibold py-3 px-4 bg-secondary rounded-xl text-primary" : "font-semibold py-4 px-4 text-secondary "}`}>
+                                className={`${active === "/" ? "font-semibold py-3 px-4 bg-secondary rounded-xl text-primary" : "font-semibold py-4 px-4 text-secondary "}`}>
                                 Home
-                            </a>
+                            </Link>
                             <a
                                 href="#about"
 
