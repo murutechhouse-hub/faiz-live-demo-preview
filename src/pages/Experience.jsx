@@ -1,8 +1,9 @@
 import OutLineButton from "../components/Button/SecondaryButton/SecondaryButton"
+import TextOnlyButton from "../components/Button/TextOnlyButton"
 
 
 export default function Experience({ data }) {
-    
+
 
     if (!data) return null
 
@@ -12,11 +13,21 @@ export default function Experience({ data }) {
             {data.experience.map((ex, i) => {
                 return (
 
-                    <div key={i} className="mt-8 ">
+                    <div key={i} className="mt-8 w-[340px] ">
 
-                        <h1 className="text-lg font-bold lg:w-[352px]">
-                            {ex.position} - {ex.company}
-                        </h1>
+                        <div className="flex justify-start gap-x-1 ">
+                           
+                            <h1 className="text-lg font-bold">
+                                {ex.position}
+                            </h1>
+                            
+                            <p>-</p>
+                            
+                            <h1 className="text-lg font-bold">
+                                <TextOnlyButton click={ex.lnk} lable={ex.company} />
+                            </h1>
+
+                        </div>
 
                         <p className="  lg:font-medium text-slate-400">
                             {ex.date}
@@ -27,8 +38,6 @@ export default function Experience({ data }) {
                 )
             }
             )}
-
-
 
         </div>
 

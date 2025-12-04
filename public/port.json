@@ -31,6 +31,7 @@
                 "position": "UI Designer",
                 "company": "Nusatek",
                 "date": "Nov 2021 - Present",
+                "lnk" : "https://nusatek.id",
                 "do1": "Handling cross-product in Nusatek.id (MOaja, Propertek, NAS Sertifikasi, Garudea, and others)."
             },
             {
@@ -38,6 +39,7 @@
                 "position": "UI Designer",
                 "company": " Batara Guru Teknologi",
                 "date": "Sep 2020 - Mar 2022",
+                "lnk": "",
                 "do1": " My contributions include, maintaining, organizing files, and prototyping in Figma in, graphic design, illustration, and UX writing."
             },
             {
@@ -45,6 +47,7 @@
                 "position": "UI/UX Designer",
                 "company": "Freelance",
                 "date": "Jan 2020 - Present",
+                "lnk": "",
                 "do1": "Creating and maintaining UI design, including component libraries, typography, color palettes, and other design elements, and ensuring consistency and usability of all design elements."
             },
             {
@@ -52,6 +55,7 @@
                 "position": "UI/UX Designer",
                 "company": "Kotakode.com (Intern)",
                 "date": "Jun 2020 - Sep 2020",
+                "lnk": "",
                 "do1": "Creating UI Design from design briefs or documents and also ensuring technical UI/UX Design"
             }
         ]

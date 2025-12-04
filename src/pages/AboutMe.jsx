@@ -41,28 +41,37 @@ export default function AboutMe({ data }) {
 
                         </div>
 
-                        <div className="flex flex-row justify-center gap-5 lg:justify-start my-6 md:mx-12">
+                        <div className="flex flex-row  items-center justify-between gap-x-3 my-6 md:mx-12">
 
-                            <ButtonIcon
-                                href="https://www.linkedin.com/in/faaaizs/"
-                                src="linkedin.svg"
-                                target="_blank"
-                                alt="Linked In"
-                            />
+                            <h2 className="text-lg lg:text-xl font-bold  ">Contact Me</h2>
+                            
+                            <div className="w-20 lg:w-96 h-0">
+                                <span className="block h-[2px] lg:h-[2.5px] bg-black"></span>
+                            </div>
 
-                            <ButtonIcon
-                                href="https://wa.me/628512109781"
-                                src="social-whatsapp.svg"
-                                target="_blank"
-                                alt="Github"
-                            />
+                            <div className="flex flex-row gap-5 justify-start">
 
-                            <ButtonIcon
-                                href="mailto:fsutdrazat@gmail.com"
-                                src="email.svg"
-                                target="_blank"
-                                alt="Behance"
-                            />
+                                <ButtonIcon
+                                    href="https://www.linkedin.com/in/faaaizs/"
+                                    src="linkedin.svg"
+                                    target="_blank"
+                                    alt="Linked In"
+                                />
+
+                                <ButtonIcon
+                                    href="https://wa.me/628512109781"
+                                    src="social-whatsapp.svg"
+                                    target="_blank"
+                                    alt="Github"
+                                />
+
+                                <ButtonIcon
+                                    href="mailto:fsutdrazat@gmail.com"
+                                    src="email.svg"
+                                    target="_blank"
+                                    alt="Behance"
+                                />
+                            </div>
 
                         </div>
 
