@@ -179,7 +179,7 @@
                 "flximg": "flx.png",
                 "asstc1": "Interfaces shouldn't provide information that is unnecessary. As a designer, I have to keep negotiating with the information submitted by stakeholders as well as selecting the information I must put on the display so that all displayed information is really needed by the users, not unnecessary.",
                 "asstc2": "There are several things I should improve here, and one of them is using many colors in one component.",
-                "asstcimg": "asstc.png",
+                "asstcimg": "asttc.png",
                 "hlpusr1": "Due to users' inability to avoid making mistakes, errors cannot be prevented. The best thing system designers can do is create the system in a way that leaves little to no room for error.",
                 "hlpusr2": "Because in this work I also do UX writing, which I am not an expert at, there are many possibilities for improvement in this text.",
                 "hlp": "Help and documentation may be required to assist users in understanding how to complete their tasks. I'm trying to create clear information and highlight the keyword.",

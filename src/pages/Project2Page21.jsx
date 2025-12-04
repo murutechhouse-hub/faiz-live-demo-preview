@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Project2Page21({ data }) {
 
