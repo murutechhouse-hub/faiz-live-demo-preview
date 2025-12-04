@@ -15,15 +15,15 @@ export default function Experience({ data }) {
 
                     <div key={i} className="mt-8 w-[340px] ">
 
-                        <div className="flex justify-start gap-x-1 ">
+                        <div className="flex justify-start gap-x-[3px] text-lg font-bold ">
                            
-                            <h1 className="text-lg font-bold">
+                            <h1 >
                                 {ex.position}
                             </h1>
                             
                             <p>-</p>
                             
-                            <h1 className="text-lg font-bold">
+                            <h1>
                                 <TextOnlyButton click={ex.lnk} lable={ex.company} />
                             </h1>
 

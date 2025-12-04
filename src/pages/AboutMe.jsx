@@ -15,65 +15,68 @@ export default function AboutMe({ data }) {
                                 <span className="text-5xl text-secondary20">.</span>
                             </h1>
                         </div>
+                        
+                        <div className="mt-8 md:mx-16">
 
+                            <div className="lg:text-xl ">
 
+                                <div className="flex items-center justify-start gap-x-3 mb-3">
+                                    <img
+                                        src={data.photo}
+                                        alt="Faiz"
+                                        className="w-12 lg:w-16 shadow-2xl rounded-xl" />
 
-                        <div className="mt-5  md:w-[700px] md:mx-12 lg:text-xl ">
+                                    <p className="font-bold text-xl lg:text-2xl ">
+                                        {data.prg1}
+                                    </p>
+                                </div>
 
-                            <div className="flex  items-center justify-start gap-x-3 mb-3">
-                                <img
-                                    src={data.photo}
-                                    alt="Faiz"
-                                    className="w-12 lg:w-16 shadow-2xl rounded-xl" />
-
-                                <p className="font-bold text-xl lg:text-2xl ">
-                                    {data.prg1}
+                                <p className="mb-3">
+                                    {data.prg2}
                                 </p>
+
+                                <p className="">
+                                    {data.prg3}
+                                </p>
+
                             </div>
 
-                            <p className="mb-3">
-                                {data.prg2}
-                            </p>
+                            <div className="flex flex-row  items-center justify-between gap-x-3 my-6">
 
-                            <p className="">
-                                {data.prg3}
-                            </p>
+                                <h2 className="text-lg lg:text-xl font-bold  ">Contact Me</h2>
 
-                        </div>
+                                <div className="w-16 lg:w-[560px] h-0">
+                                    <span className="block h-[2px] lg:h-[2.5px] bg-black"></span>
+                                </div>
 
-                        <div className="flex flex-row  items-center justify-between gap-x-3 my-6 md:mx-12">
+                                <div className="flex flex-row gap-5 justify-start">
 
-                            <h2 className="text-lg lg:text-xl font-bold  ">Contact Me</h2>
-                            
-                            <div className="w-20 lg:w-96 h-0">
-                                <span className="block h-[2px] lg:h-[2.5px] bg-black"></span>
-                            </div>
+                                    <ButtonIcon
+                                        href="https://www.linkedin.com/in/faaaizs/"
+                                        src="linkedin.svg"
+                                        target="_blank"
+                                        alt="Linked In"
+                                    />
 
-                            <div className="flex flex-row gap-5 justify-start">
+                                    <ButtonIcon
+                                        href="https://wa.me/628512109781"
+                                        src="social-whatsapp.svg"
+                                        target="_blank"
+                                        alt="Github"
+                                    />
 
-                                <ButtonIcon
-                                    href="https://www.linkedin.com/in/faaaizs/"
-                                    src="linkedin.svg"
-                                    target="_blank"
-                                    alt="Linked In"
-                                />
+                                    <ButtonIcon
+                                        href="mailto:fsutdrazat@gmail.com"
+                                        src="email.svg"
+                                        target="_blank"
+                                        alt="Behance"
+                                    />
+                                </div>
 
-                                <ButtonIcon
-                                    href="https://wa.me/628512109781"
-                                    src="social-whatsapp.svg"
-                                    target="_blank"
-                                    alt="Github"
-                                />
-
-                                <ButtonIcon
-                                    href="mailto:fsutdrazat@gmail.com"
-                                    src="email.svg"
-                                    target="_blank"
-                                    alt="Behance"
-                                />
                             </div>
 
                         </div>
+
 
 
                     </div>
