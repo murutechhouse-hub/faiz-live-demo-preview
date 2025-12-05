@@ -8,10 +8,7 @@ function ButtonIcon({ href, src, target, alt, icon }) {
                 target={target}
             >
                 {icon}
-                <img
-                    src={src}
-                    alt={alt}
-                    className="w-7 h-7" />
+              
 
             </a>
         </div>

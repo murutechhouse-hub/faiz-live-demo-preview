@@ -1,3 +1,7 @@
+import { FaLinkedin } from 'react-icons/fa'
+import { FaEnvelope } from 'react-icons/fa6'
+import { RiWhatsappFill } from 'react-icons/ri'
+
 import ButtonIcon from "../components/Button/IconButton/IconButton"
 
 export default function AboutMe({ data }) {
@@ -15,7 +19,7 @@ export default function AboutMe({ data }) {
                                 <span className="text-5xl text-secondary20">.</span>
                             </h1>
                         </div>
-                        
+
                         <div className="mt-8 md:mx-16">
 
                             <div className="lg:text-xl ">
@@ -53,24 +57,25 @@ export default function AboutMe({ data }) {
 
                                     <ButtonIcon
                                         href="https://www.linkedin.com/in/faaaizs/"
-                                        src="linkedin.svg"
                                         target="_blank"
-                                        alt="Linked In"
+                                        icon={<FaLinkedin size={32} />}
                                     />
 
                                     <ButtonIcon
                                         href="https://wa.me/628512109781"
-                                        src="social-whatsapp.svg"
                                         target="_blank"
-                                        alt="Github"
+                                        icon={<RiWhatsappFill size={32} />}
                                     />
 
                                     <ButtonIcon
                                         href="mailto:fsutdrazat@gmail.com"
-                                        src="email.svg"
                                         target="_blank"
-                                        alt="Behance"
+                                        icon={<FaEnvelope size={32} />}
                                     />
+
+
+
+
                                 </div>
 
                             </div>
